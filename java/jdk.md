@@ -1,16 +1,46 @@
 1. 请简述Object有几个内置方法
+``` java
+public getClass()
+public hashCode()
+public equals(Object)
+public toString()
+public notify()
+public notifyAll()
+public wait(long)
+public wait(long, int)
+public wait()
+protected clone()
+protected finalize()
+```
 2. 重写equals方法时需要注意什么？
+https://www.cnblogs.com/silence-hust/p/4558701.html
 3. hashCode有哪些应用场景
+http://blog.csdn.net/upcye/article/details/46959027
 4. 简述一下hashMap的put过程（数据结构）
+https://yikun.github.io/2015/04/01/Java-HashMap%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/
 5. Java8对hashMap做了什么改造？为什么要这样改？
+http://blog.csdn.net/xqnode/article/details/78633884
 6. 简述一下红黑树，说说它的好处
+http://blog.csdn.net/v_july_v/article/details/6105630
 7. java8的hashMap默认使用红黑树？什么时候会转换成红黑树？
+http://blog.csdn.net/xqnode/article/details/78633884
 8. hashMap是否是线程安全的？有哪些可替代方案？
 9. 哪个方案的性能比较高？为什么？
+https://yemengying.com/2016/05/07/threadsafe-hashmap/
 11. 如何使用wait、notify、notifyAll？需要注意什么？ 
+https://www.cnblogs.com/techyc/p/3272321.html
 12. 你了解synchronized吗？简述一下它怎么实现的.
+http://blog.csdn.net/justloveyou_/article/details/54381099
 13. 简述一下偏向锁、轻量锁、重量锁的定义，什么时候发生切换？锁是否可以降级？
+http://blog.csdn.net/zqz_zqz/article/details/70233767
 14. synchronized是否是可重入的.
+http://www.cnblogs.com/cielosun/p/6684775.html
 15. 什么是自旋锁？和互斥锁有什么不同？
 16. 简述一下自旋锁的优缺点？什么时候使用自旋锁？什么时候使用互斥锁
+https://www.jianshu.com/p/dfbe0ebfec95
+http://coolxing.iteye.com/blog/1236909
+http://www.cnblogs.com/aspirant/p/6747115.html
 17. 线程安全的定义是什么？线程不安全的容器能否在并发环境中使用？线程安全的容器是否一定是线程安全的？
+https://www.jianshu.com/p/44831d1d10d3
+http://www.hollischuang.com/archives/1786
+http://blog.csdn.net/jiyiqinlovexx/article/details/51030720
