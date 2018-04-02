@@ -41,6 +41,7 @@ protected finalize()
 	- http://coolxing.iteye.com/blog/1236909
 	- http://www.cnblogs.com/aspirant/p/6747115.html
 17. 线程安全的定义是什么？线程不安全的容器能否在并发环境中使用？线程安全的容器是否一定是线程安全的？
+	- http://geek.csdn.net/news/detail/114619
 	- https://www.jianshu.com/p/44831d1d10d3
 	- http://www.hollischuang.com/archives/1786
 	- http://blog.csdn.net/jiyiqinlovexx/article/details/51030720
